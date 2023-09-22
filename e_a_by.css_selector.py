@@ -3,9 +3,8 @@ from selenium.webdriver.common.by import By
 from time import sleep
 # 元素定位
 
-''' tag name 标签定位
-先确认标签是不是唯一的 console--document.getElementsByTagName("标签名")
-当有不止一个元素的tag name相同时, 由于find_element是单数只返回第一个值 如果想返回其他值需要使用列表下标
+''' css selector 定位
+用的比较多 因为id或者name等不一定有
 善用inspect
 
 '''
