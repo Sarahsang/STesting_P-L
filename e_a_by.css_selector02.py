@@ -1,10 +1,11 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from time import sleep
-# 元素定位
+# 元素定位 https://www.yuque.com/bingo1234/hbgurf/obb2lzhcvf6345vr 
 
-''' css selector 定位
+''' css selector 定位 https://www.bilibili.com/video/BV1VP41167kV?p=14&vd_source=9ec94212b2ce8b775f9654c007958b2f
 定位子元素 一般根据最近一个id属性往下找, 可以根据class或者标签
+父子关系 父>子 后代关系 空格表示 父 子
 善用inspect
 
 '''
