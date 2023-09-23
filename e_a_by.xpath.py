@@ -21,7 +21,7 @@ driver.find_element(By.XPATH, '/html/body/div/div/div[3]/a')
 driver.find_element(By.XPATH, '//input[@id="kw"]').send_keys("软件测试老白")
 
 # class中间有空格，需要全部写上
-driver.find_element(By.XPATH, '//a[@class="mnav c-font-normal c-color-t"]')
+driver.find_element(By.XPATH, '//a[@class="mnav c-font-normal c-color-t"]').click()
 
 #窗口最大化
 driver.maximize_window()
