@@ -17,7 +17,7 @@ driver.find_element(By.CLASS_NAME, 'classname').send_keys("输入字符")
 #点击搜索
 driver.find_element(By.CLASS_NAME, 'classname').click()
 
-#隐式等待
+#隐式等待 等待执行完
 driver.implicitly_wait(5)    
 #间隔时间
 time.sleep(3)
